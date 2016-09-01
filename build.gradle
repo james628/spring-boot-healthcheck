@@ -23,7 +23,7 @@ bootRepackage {
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-version = '1.34'
+version = '1.00'
 jar {
     manifest {
         attributes 'Implementation-Title': 'common',
