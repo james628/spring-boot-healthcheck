@@ -25,7 +25,7 @@ EX)
 		}
 
 
-# Getting started
+## Getting started
 1. import library (prepare for gradle, maven, etc..)
 
 2. Create your **healthCheckClass** java file with implements HealthCheckInterface
@@ -51,7 +51,7 @@ healthCheckClassFullName=com.studio4365.spring.healthcheck.HealthCheckClass
 	<context:component-scan base-package="com.yourdomain, com.studio4365.spring" />
 	```
 
-# Best practice
+## Best practice
 1. AWS Elastic load balancer(ELB) Health Check
 
 	**Ping Target** : HTTP:8080/healthcheck
