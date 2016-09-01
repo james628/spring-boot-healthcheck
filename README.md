@@ -53,4 +53,5 @@ healthCheckClassFullName=com.studio4365.spring.healthcheck.HealthCheckClass
 
 # Best practice
 1. AWS Elastic load balancer(ELB) Health Check
+
 	**Ping Target** : HTTP:8080/healthcheck
