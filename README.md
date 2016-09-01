@@ -30,7 +30,7 @@ EX)
 
 2. Create your **healthCheckClass** java file with implements HealthCheckInterface
 	
-	ex) HealthCheckClass.java
+	ex) [HealthCheckClassSample.java](sample/HealthCheckClassSample.java)
 	```
 	import com.studio4365.spring.healthcheck.HealthCheckInterface;
 	
