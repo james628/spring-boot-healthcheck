@@ -13,7 +13,6 @@ EX)
 	REQUEST (GET) - http://yourdomain.com/healthcheck
 	
 	RESPONSE - Content-Type: application/json
-	```
 		{
 			"return_message":"success",
 			"context":{
@@ -24,10 +23,9 @@ EX)
 			"version":"1.10",
 			"timestamp":1472708562590
 		}
-	```
 
 
-# Quick start
+# Getting started
 1. import library (prepare for gradle, maven, etc..)
 
 2. Create your **healthCheckClass** java file with implements HealthCheckInterface
