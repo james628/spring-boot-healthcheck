@@ -1,4 +1,4 @@
-# spring-healthcheck
+# spring-boot-healthcheck
  Generate REST API "/healthcheck" in your spring boot web project.
  
  "/healthcheck" provide many things.
