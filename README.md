@@ -50,3 +50,7 @@ healthCheckClassFullName=com.studio4365.spring.healthcheck.HealthCheckClass
 	```
 	<context:component-scan base-package="com.yourdomain, com.studio4365.spring" />
 	```
+
+# Best practice
+1. AWS Elastic load balancer(ELB) Health Check
+	**Ping Target** : HTTP:8080/healthcheck
