@@ -55,3 +55,6 @@ healthCheckClassFullName=com.studio4365.spring.healthcheck.HealthCheckClass
 1. AWS Elastic load balancer(ELB) Health Check
 
 	**Ping Target** : HTTP:8080/healthcheck
+	
+	ELB default ping protocol TCP just check open port. It doesn't know about status of your application.
+	If you use HTTP with "/healthcheck", you can know server status, database status, redis status and version after deploy.
