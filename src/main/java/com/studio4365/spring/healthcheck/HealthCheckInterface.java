@@ -7,14 +7,20 @@ public interface HealthCheckInterface {
 	/**
 	 * Check for Database Connection
 	 * @param context - For get Spring Bean in your application
-	 * @return 체크하지 않음:null, DB오류:-1, 정상:응답시간(ms)
+	 * @return 
+	 * 		Success: response time(ms)
+	 * 		Error: -1
+	 * 		Don't use DB: null
 	 */
 	abstract public Long checkDB(ApplicationContext context);
 
 	/**
 	 * Check for Redis Connection
 	 * @param context - For get Spring Bean in your application
-	 * @return Don't use Redis: null, Error: -1, Success: response time(ms)
+	 * @return 
+	 * 		Success: response time(ms)
+	 * 		Error: -1
+	 * 		Don't use Redis: null
 	 */
 	abstract public Long checkRedis(ApplicationContext context);
 	
