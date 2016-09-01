@@ -46,7 +46,7 @@ healthCheckClassFullName=com.studio4365.spring.healthcheck.HealthCheckClass
 	```
 	@ComponentScan(basePackages="com.yourdomain, com.studio4365.spring")
 	```
-	* XML
+	* XML driven
 	```
 	<context:component-scan base-package="com.yourdomain, com.studio4365.spring" />
 	```
