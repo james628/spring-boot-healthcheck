@@ -32,6 +32,8 @@ EX)
 	
 	ex) HealthCheckClass.java
 	```
+	import com.studio4365.spring.healthcheck.HealthCheckInterface;
+	
 	public class HealthCheckClass implements HealthCheckInterface {
 		@Override
 		...
