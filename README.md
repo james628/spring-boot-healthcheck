@@ -45,9 +45,9 @@ healthCheckClassFullName=com.studio4365.spring.healthcheck.HealthCheckClass
 4. Add basePackage **"com.studio4365.spring"** in your setting in Component-scan
 	* Annotation driven
 	```
-	@ComponentScan(basePackages="com.yourdomain, **com.studio4365.spring**")
+	@ComponentScan(basePackages="com.yourdomain, `**`com.studio4365.spring`**`")
 	```
 	* XML
 	```
-	<context:component-scan base-package="com.yourdomain, **com.studio4365.spring**" />
+	<context:component-scan base-package="com.yourdomain, `**`com.studio4365.spring`**`" />
 	```
