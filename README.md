@@ -39,6 +39,10 @@ EX)
 	```
 	compile('com.studio4365:spring-boot-healthcheck:1.00')
 	```
+	* ivy
+	```
+	<dependency org="com.studio4365" name="spring-boot-healthcheck" rev="1.00"/>
+	```
 
 2. Create your **healthCheckClass** java file with implements HealthCheckInterface
 	
