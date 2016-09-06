@@ -26,7 +26,19 @@ EX)
 
 
 ## Getting started
-1. import library (preparing for gradle, maven, etc..)
+1. import library into your spring boot project
+	* maven
+	```
+	<dependency>
+  		<groupId>com.studio4365</groupId>
+  		<artifactId>spring-boot-healthcheck</artifactId>
+  		<version>1.00</version>
+	</dependency>
+	```
+	* gradle
+	```
+	compile('com.studio4365:spring-boot-healthcheck:1.00')
+	```
 
 2. Create your **healthCheckClass** java file with implements HealthCheckInterface
 	
