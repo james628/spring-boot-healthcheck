@@ -4,3 +4,5 @@
 /.settings/
 /.classpath
 /.project
+/gradle.properties
+/comstudio4365.gpg
